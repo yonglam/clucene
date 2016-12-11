@@ -292,7 +292,7 @@ CL_NS_DEF2(analysis,standard)
 		  str.appendChar(prev);
 		  int ch = prev;
 
-		  CONSUME_CJK;
+//		  CONSUME_CJK;
 	  }
 	  return setToken(t,&str,CL_NS2(analysis,standard)::CJK);
   }

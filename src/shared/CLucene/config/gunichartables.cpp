@@ -141,7 +141,7 @@ bool cl_isletter(gunichar c)
       case G_UNICODE_TITLECASE_LETTER: return true;
       case G_UNICODE_UPPERCASE_LETTER: return true;
       case G_UNICODE_MODIFIER_LETTER: return true;
-      case G_UNICODE_OTHER_LETTER: return true;
+//      case G_UNICODE_OTHER_LETTER: return true;
       default: return false;
     }
 }
